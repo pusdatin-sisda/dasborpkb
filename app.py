@@ -67,9 +67,9 @@ with MainTab:
 
     with st.form(key="my_form"):
         labels_from_st_tags = st_tags(
-            value=["Transactional", "Informational", "Navigational"],
+            value=["Rollback", "Revisi TTE", "Revisi Data"],
             maxtags=3,
-            suggestions=["Transactional", "Informational", "Navigational"],
+            suggestions=["Rollback", "Revisi TTE", "Revisi Data"],
             label="",
         )
 
